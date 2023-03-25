@@ -3,41 +3,49 @@
     "errors": {
       "trial": {
         "fr": "Vous avez atteint la limite de questions par mois, attendez le mois prochain pour le rechargement de votre quota.\n\n:sparkles: Vous pouvez aussi vous abonner pour avoir un quota illimité et des fonctionnalités supplémentaires.",
-        "en-US": "You have reached the limit of questions per month, wait for next month for the reloading of your quota.\n\n:sparkles: You can also subscribe to have an unlimited quota and additional features."
+        "en-US": "You have reached the limit of questions per month, wait for next month for the reloading of your quota.\n\n:sparkles: You can also subscribe to have an unlimited quota and additional features.",
+        "pt-BR": "Você atingiu o limite de perguntas por mês, aguarde o próximo mês para recarregar sua cota.\n\n:sparkles: Você também pode se inscrever para ter uma cota ilimitada e recursos adicionais."
       },
       "error": {
         "fr": "Une erreur est survenue lors de l'affichage de votre réponse",
-        "en-US": "An error occurred while displaying your answer"
+        "en-US": "An error occurred while displaying your answer",
+        "pt-BR": "Ocorreu um erro ao exibir sua resposta"
       }
     },
     "command": {
       "description": {
         "fr": "Écrire ici la question à poser au robot GPT",
-        "en-US": "Write here the question to ask the GPT robot"
+        "en-US": "Write here the question to ask the GPT robot",
+        "pt-BR": "Escreva aqui a pergunta para se fazer ao BOT GPT"
       },
       "options": {
         "question": {
           "fr": "La question à poser au robot GPT",
-          "en-US": "The question to ask the GPT robot"
+          "en-US": "The question to ask the GPT robot",
+          "pt-BR": "A pergunta a se fazer ao BOT GPT"
         },
         "context": {
           "fr": "Contexte de la question, pour avoir une réponse plus pertinente",
-          "en-US": "Question context, to have a more relevant answer"
+          "en-US": "Question context, to have a more relevant answer",
+          "pt-BR": "De um contexto para a pergunta, para ter uma resposta mais relevante"
         },
         "lang": {
           "fr": "La langue shouaité pour la réponse, ou la traduction",
-          "en-US": "The desired language for the answer, or the translation"
+          "en-US": "The desired language for the answer, or the translation",
+          "pt-BR": "O idioma desejado para a resposta ou tradução"
         },
         "private": {
           "fr": "Afficher la réponse en publique ou en privé",
-          "en-US": "Display the answer publicly or privately"
+          "en-US": "Display the answer publicly or privately",
+          "pt-BR": "Exibir a resposta pública ou privada"
         }
       }
     },
     "buttons": {
       "chat": {
         "fr": "Ouvrir une conversation",
-        "en-US": "Open a conversation"
+        "en-US": "Open a conversation",
+        "pt-BR": "Abrir uma conversa"
       }
     }
   },
@@ -45,55 +53,67 @@
     "errors": {
       "trial": {
         "fr": "Vous avez atteint la limite de conversations par mois, attendez le mois prochain pour le rechargement de votre quota.\n\n:sparkles: Vous pouvez aussi vous abonner pour avoir un quota illimité et des fonctionnalités supplémentaires.",
-        "en-US": "You have reached the limit of conversations per month, wait for next month for the reloading of your quota.\n\n:sparkles: You can also subscribe to have an unlimited quota and additional features."
+        "en-US": "You have reached the limit of conversations per month, wait for next month for the reloading of your quota.\n\n:sparkles: You can also subscribe to have an unlimited quota and additional features.",
+        "pt-BR": "Você atingiu o limite de conversas por mês, aguarde o próximo mês para recarregar sua cota.\n\n:sparkles: Você também pode se inscrever para ter uma cota ilimitada e recursos adicionais."
       },
       "permissions": {
         "fr": "Pour fonctionner convenablement, j'ai besoins de la permission `Envoyer des messages`, `Gérer les messages` et `Créer des fils de discussion`.",
-        "en-US": "To work properly, I need the permission `Send messages`, `Manage messages` and `Create thread`."
+        "en-US": "To work properly, I need the permission `Send messages`, `Manage messages` and `Create thread`.",
+        "pt-BR": "Para funcionar corretamente, preciso da permissão `Enviar mensagens`, `Gerenciar mensagens` e `Criar thread`."
       },
       "openai": {
         "fr": "Une erreur est survenue lors de l'envoi de votre question à OpenAI, si cela se reproduit, vous pouvez contacter le support sur le [serveur support]({SUPPORT_SERVER_INVITE}).",
-        "en-US": "An error occurred while sending your question to OpenAI, if it happens again, you can contact the support on the [support server]({SUPPORT_SERVER_INVITE})."      
+        "en-US": "An error occurred while sending your question to OpenAI, if it happens again, you can contact the support on the [support server]({SUPPORT_SERVER_INVITE}).",
+        "pt-BR": "Ocorreu um erro ao enviar sua pergunta para OpenAI, se acontecer novamente, você pode entrar em contato com o suporte no [servidor de suporte]({SUPPORT_SERVER_INVITE})."
       },
       "creating": {
         "fr": ":thermometer_face: Quelque chose ne c'est pas passé comme prévu lors de la création du salon, réesseyez plus tard et si le problème persiste vérifier que le robot à les permissions nécessaire, ou contactez le support",
-        "en-US": ":thermometer_face: Something went wrong while creating the channel, please try again later and if the issue persists, make sure the bot has the necessary permissions or contact support."
+        "en-US": ":thermometer_face: Something went wrong while creating the channel, please try again later and if the issue persists, make sure the bot has the necessary permissions or contact support.",
+        "pt-BR": ":thermometer_face: Algo deu errado ao criar o canal, tente novamente mais tarde e se o problema persistir, verifique se o bot tem as permissões necessárias ou entre em contato com o suporte."
       },
       "response": {
         "fr": ":head_bandage: Quelque chose ne c'est pas passé comme prévu, réesseyez plus tard et si le problème persiste, contactez le support",
-        "en-US": ":head_bandage: Something went wrong, please try again later and if the issue persists, contact support."
+        "en-US": ":head_bandage: Something went wrong, please try again later and if the issue persists, contact support.",
+        "pt-BR": ":head_bandage: Algo deu errado, tente novamente mais tarde e se o problema persistir, entre em contato com o suporte."
       },
       "thread": {
         "fr": ":head_bandage: Quelque chose ne c'est pas passé comme prévu pendant la création du salon, vérifier que le robot ai les permissions requises, si le problème perciste contactez un administrateur du serveur ou le support du robot",
-        "en-US": ":head_bandage: Something went wrong while creating the channel, please check that the bot has the necessary permissions. If the issue persists, contact a server administrator or the bot support."
+        "en-US": ":head_bandage: Something went wrong while creating the channel, please check that the bot has the necessary permissions. If the issue persists, contact a server administrator or the bot support.",
+        "pt-BR": ":head_bandage: Ocorreu um erro ao criar o canal, verifique se o bot tem as permissões necessárias. Se o problema persistir, entre em contato com o administrador do servidor ou com o suporte do bot."
       },
       "channel": {
         "fr": "Vous ne pouvez utiliser cette commande dans ce type de salon",
-        "en-US": "You cannot use this command in this type of channel."
+        "en-US": "You cannot use this command in this type of channel.",
+        "pt-BR": "Você não pode usar esse comando nesse tipo de canal."
       }
     },
     "command": {
       "description": {
         "fr": "Démarrer une conversation avec le robot GPT, sur la base d'une question initiale",
-        "en-US": "Start a conversation with the GPT robot, based on an initial question"
+        "en-US": "Start a conversation with the GPT robot, based on an initial question",
+        "pt-BR": "Inicie uma conversa com o BOT GPT, com base em uma pergunta inicial"
       }
     },
     "messages": {
       "started": {
         "fr": "La première question de la conversation a été posée, vous pouvez maintenant poser vos questions.\n\n:warning: Si vous ne posez pas de question pendant 5 minutes, la conversation sera automatiquement arrêtée.\n:octagonal_sign: Pour arrêter la conversation, envoyez `stop`.\n:eyeglasses: Pour parler sans que le bot prend en compte le message commencez vos messages avec un `.` ou mentionnez quelqu'un\n\n:incoming_envelope: __Question initiale__ : *{question}*\n",
-        "en-US": "The first question of the conversation has been asked, you can now ask your questions.\n\n:warning: If you do not ask a question for 5 minutes, the conversation will automatically stop.\n:octagonal_sign: To stop the conversation, send `stop`.\n:eyeglasses: To speak without the bot taking into account the message start your messages with a `.` or mention someone\n\n:incoming_envelope: __Initial question__: {question}\n"
+        "en-US": "The first question of the conversation has been asked, you can now ask your questions.\n\n:warning: If you do not ask a question for 5 minutes, the conversation will automatically stop.\n:octagonal_sign: To stop the conversation, send `stop`.\n:eyeglasses: To speak without the bot taking into account the message start your messages with a `.` or mention someone\n\n:incoming_envelope: __Initial question__: {question}\n",
+        "pt-BR": "A primeira pergunta para a conversa foi feita, agora você pode fazer suas perguntas.\n\n:warning: Se você não fizer uma pergunta por 5 minutos, a conversa será interrompida automaticamente.\n:octagonal_sign: Para parar a conversa, envie `stop`.\n:eyeglasses: Para falar sem o bot levar em consideração a sua mensagem, comece suas mensagens com um `.` ou mencione alguém\n\n:incoming_envelope: __Initial question__: {question}\n"
       },
       "reply": {
         "fr": "Le salon de discussion a été créé, vous pouvez maintenant discuter avec le robot !",
-        "en-US": "The discussion room has been created, you can now chat with the robot!"
+        "en-US": "The discussion room has been created, you can now chat with the robot!",
+        "pt-BR": "A sala de discussão foi criada, agora você pode conversar com o BOT!"
       },
       "creating": {
         "fr": "<a:typing:1087703097498931290> Votre conversation est en cours de création",
-        "en-US": "<a:typing:1087703097498931290> Your conversation is being created"
+        "en-US": "<a:typing:1087703097498931290> Your conversation is being created",
+        "pt-BR": "<a:typing:1087703097498931290> Sua conversa está sendo criada"
       },
       "created": {
         "fr": ":kissing: Votre conversation a été créee avec succès, vous pouvez la retrouver dans le salon <#{id}>",
-        "en-US": ":kissing: Your conversation has been created successfully, you can find it in the channel <#{id}>"
+        "en-US": ":kissing: Your conversation has been created successfully, you can find it in the channel <#{id}>",
+        "pt-BR": ":kissing: Sua conversa foi criada com sucesso !!, você pode encontrá-la no canal <#{id}>"
       }
     }
   },
@@ -101,16 +121,19 @@
     "command": {
       "description": {
         "fr": "Afficher l'historique des questions posées au robot GPT",
-        "en-US": "Display the history of questions asked to the GPT robot"
+        "en-US": "Display the history of questions asked to the GPT robot",
+        "pt-BR": "Exibir o histórico de perguntas feitas ao BOT GPT"
       },
       "options": {
         "page": {
           "fr": "La page de l'historique à afficher",
-          "en-US": "The page of the history to display"
+          "en-US": "The page of the history to display",
+          "pt-BR": "A página do histórico a ser exibida"
         },
         "order": {
           "fr": "L'ordre d'affichage des questions (ascendant ou descendant)",
-          "en-US": "The order of display of the questions (ascending or descending)"
+          "en-US": "The order of display of the questions (ascending or descending)",
+          "pt-BR": "A ordem de exibição das perguntas (crescente ou decrescente)"
         }
       },
       "embed": {
@@ -119,24 +142,29 @@
         },
         "last": {
           "fr": "\n:clock1: Votre dernière question a été posée le <t:{last}:F>.\n",
-          "en-US": "\n:clock1: Your last question was asked on <t:{last}:F>.\n"
+          "en-US": "\n:clock1: Your last question was asked on <t:{last}:F>.\n",
+          "pt-BR": "\n:clock1: Sua última pergunta foi feita em <t:{last}:F>.\n"
         },
         "usage": {
           "fr": "\n:sparkles: Vous avez posé un total de **{length}** questions, il vous en reste **{remaining}** questions à poser, avant de devoir attendre le mois suivant. Découvrez *[comment retirer cette limite]({STRIPE_PREMIUM_URL})*",
-          "en-US": "\n:sparkles: You have asked a total of **{length}** questions, you have **{remaining}** questions left to ask, before having to wait for next month. Discover *[how to remove this limit]({STRIPE_PREMIUM_URL})*"
+          "en-US": "\n:sparkles: You have asked a total of **{length}** questions, you have **{remaining}** questions left to ask, before having to wait for next month. Discover *[how to remove this limit]({STRIPE_PREMIUM_URL})*",
+          "pt-BR": "\n:sparkles: Você fez um total de **{length}** perguntas, você ainda tem **{remaining}** perguntas a fazer, antes de ter que esperar pelo próximo mês. Descubra *[como remover este limite]({STRIPE_PREMIUM_URL})*"
         },
         "line-blank": {
           "fr": "Vous n'avez encore posé aucune question au robot GPT",
-          "en-US": "You have not yet asked any question to the GPT robot"
+          "en-US": "You have not yet asked any question to the GPT robot",
+          "pt-BR": "Você ainda não fez nenhuma pergunta ao BOT GPT"
         },
         "line-threads": {
           "blank": {
             "fr": "Vous n'avez pas encore démarré de conversation avec le robot GPT",
-            "en-US": "You have not yet started a conversation with the GPT robot"
+            "en-US": "You have not yet started a conversation with the GPT robot",
+            "pt-BR": "Você ainda não iniciou uma conversa com o BOT GPT"
           },
           "not-blank": {
             "fr": "Vous avez démarré {count} conversation{plural} avec le robot GPT",
-            "en-US": "You have started {count} conversation{plural} with the GPT robot"
+            "en-US": "You have started {count} conversation{plural} with the GPT robot",
+            "pt-BR": "Você iniciou {count} conversa{plural} com o BOT GPT"
           }
         },
         "footer": {
@@ -149,25 +177,29 @@
     "command": {
       "description": {
         "fr": "Récupérer une requête préciédemment effectuée",
-        "en-US": "Retrieve a previously made request"
+        "en-US": "Retrieve a previously made request",
+        "pt-BR": "Recuperar uma solicitação feita anteriormente"
       },
       "options": {
         "request": {
           "fr": "La requête à récupérer",
-          "en-US": "The request to retrieve"
+          "en-US": "The request to retrieve",
+          "pt-BR": "O pedido para recuperar"
         }
       }
     },
     "embed": {
       "description": {
         "fr": "Cette question a été posté le <t:{timestamp}:F> et a été traité en `{time}s`, a été envoyé dans le salon `{channel}` du serveur `{guild}`\n\n**Question**: {question}\n**Réponse**: {answer}\n\n**Contexte**: `{context}`\n**Langue demandé**: `{lang}`",
-        "en-US": "This question was posted on <t:{timestamp}:F> and was processed in `{time}s`, was sent to the channel `{channel}` of the server `{guild}`\n\n**Question**: {question}\n**Answer**: {answer}\n\n**Context**: `{context}`\n**Requested language**: `{lang}`"
+        "en-US": "This question was posted on <t:{timestamp}:F> and was processed in `{time}s`, was sent to the channel `{channel}` of the server `{guild}`\n\n**Question**: {question}\n**Answer**: {answer}\n\n**Context**: `{context}`\n**Requested language**: `{lang}`",
+        "pt-BR": "Esta questão foi postada em <t:{timestamp}:F> e foi processada em `{time}s`, foi enviada para o canal `{channel}` do servidor `{guild}`\n\n**Question**: {question}\n**Answer**: {answer}\n\n**Context**: `{context}`\n**Requested language**: `{lang}`"
       }
     },
     "messages": {
       "not-found": {
         "fr": "Aucune requête ayant l'ID fourni n'a été trouvée peut être un problème de cache, essayez de réessayer dans quelques minutes ou de recharger Discord.",
-        "en-US": "No request with the provided ID was found maybe a cache problem, try to try again in a few minutes or reload Discord."
+        "en-US": "No request with the provided ID was found maybe a cache problem, try to try again in a few minutes or reload Discord.",
+        "pt-BR": "Nenhuma solicitação com o ID fornecido foi encontrada, talvez um problema de cache, tente novamente em alguns minutos ou recarregue o Discord."
       }
     }
   },
@@ -175,113 +207,136 @@
     "command": {
       "description": {
         "fr": "Commande pour gérer votre abonnement",
-        "en-US": "Command to manage your subscription"
+        "en-US": "Command to manage your subscription",
+        "pt-BR": "Comando para gerenciar sua assinatura"
       }
     },
     "subcommands": {
       "email": {
         "fr": "Définir l'adresse email de votre compte sur le quel vous voulez accéder à Stripe",
-        "en-US": "Set the email address of your account on which you want to access Stripe"
+        "en-US": "Set the email address of your account on which you want to access Stripe",
+        "pt-BR": "Defina o endereço de e-mail da sua conta na qual você deseja acessar o Stripe"
       },
       "status": {
         "fr": "Afficher le statut de votre abonnement",
-        "en-US": "Display the status of your subscription"
+        "en-US": "Display the status of your subscription",
+        "pt-BR": "Exibir o status da sua assinatura"
       },
       "trial": {
         "fr": "Commencez votre essai gratuit de 3 jours",
-        "en-US": "Start your 3 days free trial"
+        "en-US": "Start your 3 days free trial",
+        "pt-BR": "Inicie seu teste gratuito de 3 dias"
       },
       "subscribe": {
         "fr": "Souscrire à l'abonnement premium",
-        "en-US": "Subscribe to the premium subscription"
+        "en-US": "Subscribe to the premium subscription",
+        "pt-BR": "Assine uma assinatura premium"
       }
     },
     "options": {
       "email": {
         "fr": "L'adresse email de votre compte",
-        "en-US": "The email address of your account"
+        "en-US": "The email address of your account",
+        "pt-BR": "O endereço de e-mail da sua conta"
       }
     },
     "errors": {
       "no-email": {
         "fr": "Pour utiliser cette commande, vous devez avoir au préalable renseigné votre adresse email avec la commande </subscription email:{SUBSCRIPTION_COMMAND}>",
-        "en-US": "To use this command, you must first have entered your email address with the command </subscription email:{SUBSCRIPTION_COMMAND}>"
+        "en-US": "To use this command, you must first have entered your email address with the command </subscription email:{SUBSCRIPTION_COMMAND}>",
+        "pt-BR": "Para usar este comando, primeiro você deve inserir seu endereço de e-mail com o comando </subscription email:{SUBSCRIPTION_COMMAND}>"
       },
       "no-subscription": {
         "fr": "Vous n'avez pas d'abonnement actif",
-        "en-US": "You do not have an active subscription"
+        "en-US": "You do not have an active subscription",
+        "pt-BR": "Você não tem uma assinatura ativa"
       },
       "already-subscribed": {
         "fr": "Vous avez déjà un abonnement actif",
-        "en-US": "You already have an active subscription"
+        "en-US": "You already have an active subscription",
+        "pt-BR": "Você já tem uma assinatura ativa"
       },
       "invalid-email": {
         "fr": "L'adresse email renseignée n'est pas valide",
-        "en-US": "The email address entered is not valid"
+        "en-US": "The email address entered is not valid",
+        "pt-BR": "O endereço de e-mail inserido não é válido"
       },
       "email-exists": {
         "fr": "L'adresse email renseignée est déjà utilisée par un autre utilisateur, si vous êtes le propriétaire de cette adresse email, venez sur le [serveur support]({SUPPORT_URL}) pour obtenir de l'aide",
-        "en-US": "The email address entered is already used by another user, if you are the owner of this email address, come to the [support server]({SUPPORT_URL}) to get help"
+        "en-US": "The email address entered is already used by another user, if you are the owner of this email address, come to the [support server]({SUPPORT_URL}) to get help",
+        "pt-BR": "O endereço de e-mail inserido já é usado por outro usuário, se você for o proprietário desse endereço de e-mail, acesse o [servidor de suporte]({SUPPORT_URL}) para obter ajuda"
       },
       "already-defined": {
         "fr": "Vous avez déjà renseigné une adresse email, venez sur le [serveur support]({SUPPORT_URL}) pour obtenir de l'aide si vous souhaitez la changer",
-        "en-US": "You have already entered an email address, come to the [support server]({SUPPORT_URL}) to get help if you want to change it"
+        "en-US": "You have already entered an email address, come to the [support server]({SUPPORT_URL}) to get help if you want to change it",
+        "pt-BR": "Você já digitou um endereço de e-mail, acesse o [servidor de suporte]({SUPPORT_URL}) para obter ajuda se quiser alterá-lo"
       },
       "trial-exists": {
         "fr": "Malheureusement, il semble que vous ayez déjà eu un essai gratuit, vous ne pouvez donc pas en avoir un autre, si vous pensez que c'est une erreur, venez sur le [serveur support]({SUPPORT_URL}) pour obtenir de l'aide",
-        "en-US": "Unfortunately, it seems that you have already had a free trial, so you can't have another one, if you think this is an error, come to the [support server]({SUPPORT_URL}) to get help"
+        "en-US": "Unfortunately, it seems that you have already had a free trial, so you can't have another one, if you think this is an error, come to the [support server]({SUPPORT_URL}) to get help",
+        "pt-BR": "Infelizmente, parece que você já utilizou o período de teste gratuito, e não poderá ter outro !!, se você acha que é um erro, vá até o [servidor de suporte]({SUPPORT_URL}) para obter ajuda"
       },
       "trial-already": {
         "fr": "Il semblerai que vous ayez déjà profité de votre essai gratuit, vous ne pouvez donc pas en avoir un autre, si vous pensez que c'est une erreur, venez sur le [serveur support]({SUPPORT_URL}) pour obtenir de l'aide",
-        "en-US": "It seems that you have already benefited from your free trial, so you can't have another one, if you think this is an error, come to the [support server]({SUPPORT_URL}) to get help"
+        "en-US": "It seems that you have already benefited from your free trial, so you can't have another one, if you think this is an error, come to the [support server]({SUPPORT_URL}) to get help",
+        "pt-BR": "pt-BR": "Parece que você já se beneficiou de seu teste gratuito, e não poderá ter outro !!, se você acha que é um erro, vá até o [servidor de suporte]({SUPPORT_URL}) para obter ajuda"
       }
     },
     "messages": {
       "trial": {
         "sure": {
           "fr": "Êtes-vous sûr de vouloir commencer votre essai gratuit, vous ne pourrez pas revenir en arrière ni en bénéficier une seconde fois ?",
-          "en-US": "Are you sure you want to start your free trial, you will not be able to go back and you will not be able to benefit from it a second time?"
+          "en-US": "Are you sure you want to start your free trial, you will not be able to go back and you will not be able to benefit from it a second time?",
+          "pt-BR": "Tem certeza de que deseja iniciar sua avaliação gratuita ?, não poderá voltar atrás e não poderá se beneficiar dela uma outra vez?
         }
       },
       "subscribe": {
         "fr": "Abonnez vous [mensuellement]({MONTH_SUB}) pour 5.99€ pour avoir accès à toutes les fonctionnalités du bot, vous pouvez annuler votre abonnement à tout moment depuis le [tableau de bord]({DASHBOARD_URL}), vous pouvez aussi vous abonner [annuellement]({ANN_SUB}) pour 59.99€ pour avoir accès à toutes les fonctionnalités du bot pour une durée d'un an, vous pouvez annuler votre abonnement à tout moment depuis le [tableau de bord]({DASHBOARD_URL})",
-        "en-US": "Subscribe [monthly]({MONTH_SUB}) for 5.99€ to have access to all the features of the bot, you can cancel your subscription at any time from the [dashboard]({DASHBOARD_URL}), you can also subscribe [annually]({SUPPORT_URL}) for 59.99€ to have access to all the features of the bot for a period of one year, you can cancel your subscription at any time from the [dashboard]({DASHBOARD_URL})"
+        "en-US": "Subscribe [monthly]({MONTH_SUB}) for 5.99€ to have access to all the features of the bot, you can cancel your subscription at any time from the [dashboard]({DASHBOARD_URL}), you can also subscribe [annually]({SUPPORT_URL}) for 59.99€ to have access to all the features of the bot for a period of one year, you can cancel your subscription at any time from the [dashboard]({DASHBOARD_URL})",
+        "pt-BR": "Inscreva-se [mensalmente]({MONTH_SUB}) por 5,99€ para ter acesso a todos os recursos do bot, você pode cancelar sua assinatura a qualquer momento no [dashboard]({DASHBOARD_URL}), você também pode se inscrever [anualmente]({SUPPORT_URL}) por 59,99€ para ter acesso a todos os recursos do bot por um período de um ano, você pode cancelar sua assinatura a qualquer momento no [dashboard]({DASHBOARD_URL})"
       }
     },
     "success": {
       "subscription-found": {
         "fr": "Vous avez un abonnement actif, vous pouvez le gérer sur le [tableau de bord]({DASHBOARD_URL})",
-        "en-US": "You have an active subscription, you can manage it on the [dashboard]({DASHBOARD_URL})"
+        "en-US": "You have an active subscription, you can manage it on the [dashboard]({DASHBOARD_URL})",
+        "pt-BR": "Você tem uma assinatura ativa, pode gerenciá-la na [dashboard]({DASHBOARD_URL})"
       },
       "valid-email": {
         "fr": "L'adresse email renseignée est valide et sera utilisée pour accéder à Stripe",
-        "en-US": "The email address entered is valid and will be used to access Stripe"
+        "en-US": "The email address entered is valid and will be used to access Stripe",
+        "pt-BR": "O endereço de e-mail inserido é válido e será usado para acessar o Stripe"
       },
       "subscriber-status": {
         "trial": {
           "fr": "Vous êtes actuellement en période d'essai, qui expire le <t:{trial_end}:F>",
-          "en-US": "You are currently in the trial period, which expires on <t:{trial_end}:F>"
+          "en-US": "You are currently in the trial period, which expires on <t:{trial_end}:F>",
+          "pt-BR": "Você está atualmente no período de avaliação, que expira em <t:{trial_end}:F>"
         },
         "active": {
           "fr": ":tada: Vous êtes abonné à **GPT Premium**, votre abonnement expire le <t:{current_period_end}:F>, vous pouvez accéder à votre [tableau de bord]({DASHBOARD_URL})",
-          "en-US": ":tada: You are subscribed to **GPT Premium**, your subscription expires on <t:{current_period_end}:F>, you can access your [dashboard]({DASHBOARD_URL})"
+          "en-US": ":tada: You are subscribed to **GPT Premium**, your subscription expires on <t:{current_period_end}:F>, you can access your [dashboard]({DASHBOARD_URL})",
+          "pt-BR": ":tada: Você está inscrito no **GPT Premium**, sua assinatura expira em <t:{current_period_end}:F>, você pode acessar sua [dashboard]({DASHBOARD_URL})"
         },
         "canceled": {
           "fr": "Vous avez annulé votre abonnement le <t:{canceled_at}:R>, vous perdrez l'accès à toutes les fonctionnalités premium le <t:{date_end}:R>",
-          "en-US": "You canceled your subscription on <t:{canceled_at}:R>, you will lose access to all premium features on <t:{date_end}:R>"
+          "en-US": "You canceled your subscription on <t:{canceled_at}:R>, you will lose access to all premium features on <t:{date_end}:R>",
+          "pt-BR": "Você cancelou sua assinatura em <t:{canceled_at}:R>, você perderá o acesso a todos os recursos premium em <t:{date_end}:R>"
         }
       },
       "trial": {
         "started": {
           "fr": "Votre essai gratuit a bien été démarré, il expirera dans 3 jours, utilisez la commande </subscription status:{SUBSCRIPTION_COMMAND}> pour voir les avantages de l'abonnement",
-          "en-US": "Your free trial has been started, it will expire in 3 days, use the command </subscription status:{SUBSCRIPTION_COMMAND}> to see the benefits of the subscription"
+          "en-US": "Your free trial has been started, it will expire in 3 days, use the command </subscription status:{SUBSCRIPTION_COMMAND}> to see the benefits of the subscription",
+          "pt-BR": "Seu teste gratuito foi iniciado, expirará em 3 dias, use o comando </subscription status:{SUBSCRIPTION_COMMAND}> para ver os benefícios de sua assinatura"
         }
       }
     },
     "buttons": {
       "start": {
         "fr": "Démarrer l'essai de 3 jours",
-        "en-US": "Start the 3 days trial"
+        "en-US": "Start the 3 days trial",
+        "pt-BR": "Inicie o teste de 3 dias"
       }
     }
   },
@@ -289,12 +344,14 @@
     "command": {
       "description": {
         "fr": "Affiche les statistiques du bot",
-        "en-US": "Displays the bot statistics"
+        "en-US": "Displays the bot statistics",
+        "pt-BR": "Exibe as estatísticas do bot"
       },
       "options": {
         "guilds": {
           "fr": "Choisir l'un des serveurs du bot",
-          "en-US": "Choose one of the bot's servers"
+          "en-US": "Choose one of the bot's servers",
+          "pt-BR": "Escolha um dos servidores do bot"
         }
       }
     }
@@ -303,47 +360,56 @@
     "config": {
       "question": {
         "fr": "Répond à cette question \"{QUESTION}\"",
-        "en-US": "Answer this question \"{QUESTION}\""
+        "en-US": "Answer this question \"{QUESTION}\"",
+        "pt-BR": "Responda a essa pergunta \"{QUESTION}\""
       },
       "translate": {
         "select": {
           "fr": "Langue de sortie",
-          "en-US": "Output language"
+          "en-US": "Output language",
+          "pt-BR": "Idioma de saída"
         }
       }
     },
     "discussion": {
       "title": {
         "fr": "Contexte de la discussion",
-        "en-US": "Discussion context"
+        "en-US": "Discussion context",
+        "pt-BR": "Contexto da discussão"
       },
       "messages": {
         "errors": {
           "error": {
             "fr": "Une erreur est survenue lors de la génération du contexte, veuillez réessayer",
-            "en-US": "An error occurred while generating the context, please try again"
+            "en-US": "An error occurred while generating the context, please try again",
+            "pt-BR": "Ocorreu um erro ao gerar o contexto, tente novamente"
           },
           "no-context": {
             "fr": "Aucun contexte trouvé",
-            "en-US": "No context found"
+            "en-US": "No context found",
+            "pt-BR": "Nenhum contexto encontrado"
           },
           "missed": {
             "fr": "Vous avez manqué le message, veuillez réessayer",
-            "en-US": "You missed the message, please try again"
+            "en-US": "You missed the message, please try again",
+            "pt-BR": "Você perdeu a mensagem, por favor tente novamente"
           }
         },
         "success": {
           "analyzing": {
             "fr": "<a:typing:1087703097498931290> Je suis en train d'analyser les `{MSG}` derniers messages",
-            "en-US": "<a:typing:1087703097498931290> I'm analyzing the `{MSG}` last messages"
+            "en-US": "<a:typing:1087703097498931290> I'm analyzing the `{MSG}` last messages",
+            "pt-BR": "<a:typing:1087703097498931290> Estou analisando as últimas mensagens `{MSG}`"
           },
           "context-ask": {
             "fr": "Peut tu me dire le contexte de la conversation suivante, de quoi ils parlent ?",
-            "en-US": "Can you tell me the context of the following conversation, what are they talking about ?"
+            "en-US": "Can you tell me the context of the following conversation, what are they talking about ?",
+            "pt-BR": "Você pode me dizer o contexto da seguinte conversa ?, sobre o que eles estão falando ?"
           },
           "choose-count": {
             "fr": "Combien de messages voulez vous contexter ?",
-            "en-US": "How many messages do you want to contextualize?"
+            "en-US": "How many messages do you want to contextualize?",
+            "pt-BR": "Quantas mensagens você deseja contextualizar ?"
           }
         }
       }
@@ -351,14 +417,16 @@
     "question": {
       "title": {
         "fr": "Répondre à une question",
-        "en-US": "Answer a question"
+        "en-US": "Answer a question",
+        "pt-BR": "Responda uma pergunta"
       },
       "messages": {
         "errors": {},
         "success": {
           "answering": {
             "fr": "<a:typing:1087703097498931290> Je suis en train de répondre à ta question",
-            "en-US": "<a:typing:1087703097498931290> I'm answering your question"
+            "en-US": "<a:typing:1087703097498931290> I'm answering your question",
+            "pt-BR": "<a:typing:1087703097498931290> Estou respondendo a sua pergunta"
           }
         }
       }
@@ -366,7 +434,8 @@
     "translate": {
       "title": {
         "fr": "Traduire",
-        "en-US": "Translate"
+        "en-US": "Translate",
+        "pt-BR": "Traduzir"
       },
       "messages": {
         "errors": {
@@ -375,14 +444,16 @@
         "success": {
           "answering": {
             "fr": "<a:typing:1087703097498931290> Traduction en cours",
-            "en-US": "<a:typing:1087703097498931290> Translation in progress"
+            "en-US": "<a:typing:1087703097498931290> Translation in progress",
+            "pt-BR": "<a:typing:1087703097498931290> Tradução em andamento ..."
           }
         }
       },
       "options": {
         "to": {
           "fr": "Langue de destination",
-          "en-US": "Destination language"
+          "en-US": "Destination language",
+          "pt-BR": "Idioma de destino"
         }
       }
     }
